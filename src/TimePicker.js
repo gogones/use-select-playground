@@ -85,7 +85,7 @@ export default function TimePicker({
   }, [selectedTime])
 
   const onChange = useCallback((newValue) => {
-    onChangeProps(newValue.value);
+    return onChangeProps(newValue.value);
   }, [onChangeProps])
 
   const {
