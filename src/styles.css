@@ -1,0 +1,13 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: sans-serif;
+  font-size: 25px;
+}
+
+input {
+  font-size: 25px;
+}
